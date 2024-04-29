@@ -67,7 +67,7 @@ with st.sidebar:
 START = "2010-01-01"
 TODAY = date.today().strftime("%Y-%m-%d")
 
-st.title(":red[Stock Trend Prediction]")
+st.title(":red[Stream Stock Trend]")
 
 user_input = st.text_input('Enter stock ticker:','AAPL') 
 
